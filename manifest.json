@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "一換三",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/forms/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
