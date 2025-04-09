@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "一換三",
-  "version": "0.87",
+  "name": "不等價交換傳送石",
+  "version": "1.0",
   "permissions": ["activeTab", "storage"],
   "options_page": "options.html",
   "content_scripts": [
