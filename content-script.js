@@ -1,6 +1,6 @@
 // 從存儲中讀取自訂值並填寫表單
 chrome.storage.sync.get(['customInputValue'], (result) => {
-  const userValue = result.customInputValue || 'Sun/#09uXF'; // 如果沒有自訂值，使用預設值
+  const userValue = result.customInputValue || 'Charce/#pACfM'; // 如果沒有自訂值，使用預設值
 
   const inputField = document.querySelector('.whsOnd.zHQkBf'); // 根據 class 定位目標欄位
   if (inputField) {
